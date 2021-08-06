@@ -5,6 +5,11 @@ class Pessoa {
     //private set
     var cpf: String = "123.123.123-11"
     private set
+
+    constructor()
+
+    fun pessoaInfo() = "$nome e $cpf"
+
 /*
     setCpf(cpf: String ) {
         this.cpf = cpf
@@ -28,5 +33,7 @@ fun main() {
     println(ronei.nome + " " + ronei.cpf)
 
     //println(ronei.Endereco().rua)
+
+    println(ronei.pessoaInfo())
 
 }
