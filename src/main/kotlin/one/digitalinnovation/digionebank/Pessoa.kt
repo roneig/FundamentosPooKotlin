@@ -1,5 +1,12 @@
 package one.digitalinnovation.digionebank
+open class Pessoa (
+    open val nome: String,
+    open val cpf: String
+)
 
+
+//-----------------------------------------------------------------
+/*
 class Pessoa {
     var nome: String = "ronei"
     //private set
@@ -21,19 +28,4 @@ class Pessoa {
     }
 */
 }
-
-fun main() {
-    val ronei = Pessoa()
-    println(ronei)
-    println(ronei.nome + " " + ronei.cpf)
-    //ronei.cpf = "123456"
-    //ronei.setCpf("123456")
-
-    ronei.nome = "ronei2"
-    println(ronei.nome + " " + ronei.cpf)
-
-    //println(ronei.Endereco().rua)
-
-    println(ronei.pessoaInfo())
-
-}
+*/
