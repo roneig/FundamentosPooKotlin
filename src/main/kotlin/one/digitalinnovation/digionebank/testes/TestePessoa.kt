@@ -3,9 +3,10 @@ package one.digitalinnovation.digionebank.testes
 import one.digitalinnovation.digionebank.Pessoa
 
 fun main() {
-    val ronei = Pessoa(nome = "RG", cpf = "123456")
-    println(ronei.nome)
-    println(ronei.cpf)
+    //val ronei = Pessoa(nome = "RG", cpf = "123456")
+    //println(ronei.nome)
+    //println(ronei.cpf)
+    // usado para testar herança. não funciona com abstração
 
 
 
